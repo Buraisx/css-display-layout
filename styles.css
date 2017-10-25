@@ -1,0 +1,48 @@
+body{
+	font-family: 'Roboto', sans-serif;
+	margin:0px;
+}
+img{
+	display:inline-block;
+}
+h2{
+
+	font-size:20px;
+	padding:15px;
+	background-color:#adf0ea;
+}
+h1{
+	background-color:#000000;
+	color:#FFFFFF;
+	padding:10px;
+	margin-bottom:5px;
+}
+a{
+	background-color:#CFCFCF;
+	color:#FFFFFF;
+	text-decoration:none;
+	padding:5px;
+	margin-top:0px;
+}
+a:hover{
+	transition:0.5s;
+	background-color:#9C9C9C;
+}
+footer{
+	background-color:#000000;
+	color:#ffffff;
+	padding:20px;
+	margin-top:10px;
+}
+.center{
+	text-align:center;
+}
+.content{
+	margin: 0 5%;
+}
+.photocount{
+	text-decoration:underline;
+	font-weight:1000;
+	text-decoration-color:#FCB700;
+}
+

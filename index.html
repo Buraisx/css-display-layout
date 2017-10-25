@@ -1,27 +1,38 @@
 <html>
 	<head>
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 		<link rel="stylesheet" href="styles.css">
+		<!-- I wanna use bootstrap for this -->
 	</head>
 	<body>
-		<nav>
+		<nav class="center">
 			<h1>Bitmaker Photo Gallery</h1>
 			<a href="#">Home</a>
 			<a href="#">Add a photo</a>
 			<a href="#">About</a>
 		</nav>
-		<h2>There are <span>6</span> photos</h2>
-		<div>
-			<img src="https://picsum.photos/200/300/?random">
-			<img src="https://picsum.photos/200/300/?random">
-			<img src="https://picsum.photos/200/300/?random">
+		<div class="content">
+				<h2>There are <span class="photocount">6</span> photos</h2>
+				<div class="center">
+					<img src="https://picsum.photos/200/300/?random">
+					
+					<img src="https://picsum.photos/200/300/?random">
+				
+					<img src="https://picsum.photos/200/300/?random">
+
+				</div>
+			<div class = "center">
+				<div>
+					<img src="https://picsum.photos/200/300/?random">
+				
+					<img src="https://picsum.photos/200/300/?random">
+				
+					<img src="https://picsum.photos/200/300/?random">
+				</div>
+			</div>
 		</div>
-		<div>
-			<img src="https://picsum.photos/200/300/?random">
-			<img src="https://picsum.photos/200/300/?random">
-			<img src="https://picsum.photos/200/300/?random">
-		</div>
-		<footer>
-			<span> Bitmaker 2016</span>
+		<footer class="center">
+			<span > Bitmaker 2016</span>
 		</footer>
 	</body>
 </html>
