@@ -51,3 +51,8 @@ footer{
 span.col{
 	background-color:#FCB700;
 }
+span>a:nth-child(1){
+	padding:2px;
+	border-right:1px solid #000000;
+
+}
