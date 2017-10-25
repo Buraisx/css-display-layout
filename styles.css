@@ -2,14 +2,13 @@ body{
 	font-family: 'Roboto', sans-serif;
 	margin:0px;
 }
-img{
-	display:inline-block;
-}
+
 h2{
 
 	font-size:20px;
 	padding:15px;
 	background-color:#adf0ea;
+	margin-top:25px;
 }
 h1{
 	background-color:#000000;
@@ -17,14 +16,14 @@ h1{
 	padding:10px;
 	margin-bottom:5px;
 }
-a{
+nav a{
 	background-color:#CFCFCF;
 	color:#FFFFFF;
 	text-decoration:none;
 	padding:5px;
 	margin-top:0px;
 }
-a:hover{
+nav a:hover{
 	transition:0.5s;
 	background-color:#9C9C9C;
 }
@@ -45,4 +44,10 @@ footer{
 	font-weight:1000;
 	text-decoration-color:#FCB700;
 }
-
+.col{
+	width:32%;
+	display:inline-block;
+}
+span.col{
+	background-color:#FCB700;
+}
