@@ -2,7 +2,6 @@ body{
 	font-family: 'Roboto', sans-serif;
 	margin:0px;
 }
-
 h2{
 
 	font-size:20px;
@@ -13,7 +12,7 @@ h2{
 h1{
 	background-color:#000000;
 	color:#FFFFFF;
-	padding:10px;
+	padding:20px;
 	margin-bottom:5px;
 }
 nav a{
@@ -22,6 +21,7 @@ nav a{
 	text-decoration:none;
 	padding:5px;
 	margin-top:0px;
+	font-weight:bold;
 }
 nav a:hover{
 	transition:0.5s;
@@ -39,17 +39,19 @@ footer{
 .content{
 	margin: 0 5%;
 }
-.photocount{
+h2 .photocount{
 	text-decoration:underline;
-	font-weight:1000;
+	font-weight:900;
 	text-decoration-color:#FCB700;
 }
 .col{
-	width:32%;
+	width:33%;
 	display:inline-block;
 }
 span.col{
 	background-color:#FCB700;
+	margin-bottom:20px;
+	padding:5px 0;
 }
 span>a:nth-child(1){
 	padding:2px;
